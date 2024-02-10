@@ -10,22 +10,17 @@
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/asset/css/main.css">
     <title>Orbit</title>
   </head> 
   <section class="hero-section">  
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <div class="container-fluid">
-      <!-- Logo aligned to the left -->
-      <a class="navbar-brand" href="#" ><img src="./asset/Logo.png" alt="Logo"></a>
-      
-      <!-- Toggle button for small screens -->
-      <button class="navbar-toggler" type="button" data-bs-theme="dark" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#" ><img src="./asset/images/Logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-theme="" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
       <div class="collapse navbar-collapse" id="navbarNav">
-        <!-- Tabs centered -->
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Vision</a>
@@ -46,71 +41,60 @@
             <a class="nav-link" href="#">Whitepaper</a>
           </li>
         </ul>
-  
-        <!-- Button aligned to the right -->
-        <div class="end">
-          <button class="btn btn-outline btn-login" id="Launchbtn" type="button">Launch App</button>
+        <div class="nav-button">
+          <button type="button" class="btn btn-primary">Launch App</button>
         </div>
         </div>
     </div>
   </nav>
 <!--home start-->           
-<section id="home">
-  <div  class="container mt-5">
-  <div class="row">
-    <div class="col-lg-12 col-md-10">
-<h2 id="word">Revolutionary Token<br>
-    <span id="change" >Lorem Ipsum<br></span>
-    <div id="words">Invest in a Cryptocurrency that cares about its community.<br>Andromeda M31 Is Better Than The Rest</div>
-    <button type="button" class="btn btn-outline" id="btn">Our Vision</button>
-    <button type="button" class="btn btn-outline"id="btn">Roadmap</button>
+<section class="home">
+  <div  class="container">
+  <div class="row mt-7">
+    <div class="col-12 col-md-12 col-lg-12 mt-5 ">
+    <h2>Revolutionary Token<br>
+    <span class="color-word">Lorem Ipsum<br></span>
+    <p class="fw-5 tag-line">Invest in a Cryptocurrency that cares about its community.<br>Andromeda M31 Is Better Than The Rest</p>
+    <button type="button" class="btn btn-primary">Our Vision</button>
+    <button type="button" class="btn btn-primary fw-5"id="btn">Our Roadmap</button>
+    <div class="d-flex featured"> 
+      <h4>Featured on:</h4>
+      <img class="img1" src="./asset/images/image 10.png">
+      <img class="img1"src="./asset/images/image 11.png">
+      <img class="img1" src="./asset/images/image 12.png">
+      <img class="img1" src="./asset/images/image 13.png">
+      <img class="img1"src="/asset/images/image 14.png" >
+      <img class="img1" src="./asset/images/image 15.png">
+    </div> 
   </div>
-</div>
-  <div class="col-lg-12 col-md-12">
-<div id="tste"> 
-    <h5 class="featuretxt">Featured on:</h5>
-    <img class="img1" src="./asset/image 10.png">
-    <img class="img1"src="./asset/image 11.png">
-    <img class="img1" src="./asset/image 12.png">
-    <img class="img1" src="./asset/image 13.png">
-    <img class="img1"style="margin-right:30px" src="./asset/image 14.png" >
-    <img class="img1" src="./asset/image 15.png">
-  </div> 
 </div>
 </div>
 </section>
 <!-- Vision Start -->
-<section class="container mt-5">
+<section class="container mt-6 mb-5">
   <div class="row">
-      <div class="col-lg-6 col-md-12 align-items-center">
-          <div class="vision">Our Vision</div>
-          <div class="txt">We enjoy freedom, and decentralization.</div>
-          <div id="txts">
+      <div class=" col-6 col-md-12 col-lg-6">
+          <h2 class="pt-4 fw-7">Our Vision</h2>
+          <div class="shaded-line mt-3 mb-4">We enjoy freedom, and decentralization.</div>
+          <p>
               At Orbit Launch: Andromeda M31, we value honesty and transparency.
               We work hard for our investments and your investments.
               We also strive to make a lasting impact in decentralized finance.
-          </div>
+          </p>
       </div>
-      <div class=" col-lg-6 col-md-12 align-items-center">
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#videoModal">
-                  <img src="./asset/vedio.svg" alt="Video">
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true"style="max-height:100%;max-width:100%;">
+      <div class="col-6 col-md-12 col-lg-6">
+          <img src="./asset/images/vedio.svg"data-bs-toggle="modal" data-bs-target="#videoModal">
+              <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
                   <div class="modal-dialog" >
                       <div class="modal-content">
-                          <div class="modal-header border-0">
+                          <div class="modal-header border-">
                               <h5 class="modal-title" id="videoModalLabel">Orbit</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
-                              <!-- Embed your video here (replace the placeholder) -->
-                              <div class="embed-responsive-16by9">
-                                <iframe id="ifrm" src="https://www.youtube.com/embed/b3ootXSAaqE?si=AoZYwyAL0b6L1Mjw"frameborder="0" allowfullscreen></iframewo>
+                              <div class="embed">
+                                <iframe id="ifrm" src="https://www.youtube.com/embed/b3ootXSAaqE?si=AoZYwyAL0b6L1Mjw"frameborder="0" allowfullscreen></iframe>
                                 </div>
-                          </div>
-                          <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                           </div>
                       </div>
                   </div>
@@ -118,154 +102,148 @@
           </div>
       </div>
 </section>
-<!-- </iframe>
-</section> --> 
 <!-- Products start -->
-<section class="productbg">
+<section class="product-background mt-7">
   <div class="container">
-  <h1 id="prdcts">Products</h1>
-  <div class="row g-0 bg-body-secondary position-relative" id="box">
-    <div class="d-flex position-relative">
-      <div class=" col-lg-8 col-md-6 p-2 ps-md-0 d-flex flex-column justify-content-between">
-        <h2 class="invfu">Investment Fund</h2>
-        <p id="inwor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
+  <h2 class="text-center fw-7 mb-5">Products</h2>
+  <div class="d-md-flex mt-md-1 mb-md-2  align-items-center justify-content-center">
+  <div class="row g-0 box">
+      <div class=" col-8 col-md-12 col-lg-8 p-2 ps-md-0 d-flex flex-column justify-content-between">
+        <h3 class="mt-4 pd-6">Investment Fund</h3>
+        <p class="product-align pt-1 pb-2 mt-4 pd-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi volupt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto minima perspiciatis molestias error. Sapiente atque consequuntur nam aliquam architecto. ates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
         <div class="d-flex align-items-end">
-          <div id="align"><button type="button" class="btn btn-outline-secondary btn-lg" id="Launchbtn">Launch App</button></div>
+          <div class="pd-6 align"><button type="button" class="btn btn-primary btn-lg">Launch App</button></div>
         </div>
       </div>
-      <div class=" col-lg-4 col-md-6 mb-md-0 p-md-4" id="imge">
-        <img src="./asset/barchart.svg" alt="barchart" class="img-fluid">
+      <div class="col-4 col-md-12 col-lg-4 mb-md-0 pd-6 px-md-6 p-md-4 image-align">
+        <img src="./asset/images/barchart.svg" alt="barchart" class="img-fluid">
       </div>
     </div>
   </div>
-
-  <div class="row g-0 bg-body-secondary position-relative" id="box">
-    <div class="d-flex position-relative">
-      <div class=" col-lg-4 col-md-6 mb-md-0 p-md-4" id="imge">
-        <img src="./asset/rocket.svg" alt="launch" class="img-fluid">
+  <div class="d-md-flex mt-md-1 mb-md-1 justify-content-center">
+  <div class="row g-0 box">
+      <div class=" col-4 col-md-12 col-lg-4 mb-md-0 pd-6 px-md-6 p-md-4 image-align" id="imge">
+        <img src="./asset/images/rocket.svg" alt="launch" class="img-fluid">
       </div>
-      <div class=" col-lg-8 col-md-6 p-2 ps-md-0 d-flex flex-column justify-content-between">
-        <h2 class="invfu">Launchpad</h2>
-        <p id="inwor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
+      <div class="col-8 col-md-12 col-lg-8 p-2 ps-md-0 d-flex flex-column justify-content-between">
+        <h3 class="mt-3 pd-6 mb-0">Launchpad</h3>
+        <p  class="pt-1 pb-2 mt-4 pd-6">Lorem, ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium molestiae accusamus dicta doloribus ipsa omnis provident illum delectus. Doloremque provident reprehenderit distinctio, culpa cum excepturi iste suscipit in incidunt? consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
         <div class="d-flex align-items-end">
-          <div id="align"><button type="button" class="btn btn-outline-secondary btn-lg" id="Launchbtn">Launch App</button></div>
+          <div class="pd-6 align"><button type="button" class="btn btn-primary btn-lg" >Launch App</button></div>
         </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="row g-0 bg-body-secondary position-relative" id="box">
-  <div class="d-flex position-relative">
-    <div class="col-lg-8 col-md-6 p-2 ps-md-0 d-flex flex-column justify-content-between">
-      <h2 class="invfu">Data Analytics</h2>
-      <p id="inwor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
-      <div class="d-flex align-items-end">
-        <div id="align"><button type="button" class="btn btn-outline-secondary btn-lg" id="Launchbtn">Launch App</button></div>
+    </div>  
+  </div> 
+  <div class="d-md-flex mt-md-1 mb-md-2 align-self-center justify-content-center">
+    <div class="row box">
+    <div class="col-12 col-md-12 col-lg-8 p-2  ps-md-0 d-flex flex-column justify-content-between">
+      <h3 class="mt-3 pd-6 mb-0">Data Analytics</h3>
+      <p class="pt-1 pb-2 mt-4 pd-6">Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat doloribus, quidem error enim maiores accusantium provident consequatur voluptates quod molestiae reprehenderit vero nesciunt, recusandae sapiente sint commodi nihil neque. elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
+       <div class="d-flex align-items-end">
+        <div class="pd-6 align"><button type="button" class="btn btn-primary btn-lg">Launch App</button></div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 mb-md-0 p-md-4" id="imge">
-      <img src="./asset/monitor.svg" alt="Analysis" class="img-fluid">
+    <div class="col-4 col-md-12 col-lg-4 px-md-6  mb-md-0 pd-6 p-md-4 align-items-center image-align">
+      <img src="./asset/images/monitor.svg" alt="Analysis" class="img-fluid">
     </div>
   </div>
 </div>
-<div class="row g-0 bg-body-secondary position-relative" id="box">
-  <div class="d-flex position-relative">
-    <div class="col-lg-4 col-md-6 mb-md-0 p-md-4" id="imge">
-      <img src="./asset/Globe.svg" alt="Globe" class="img-fluid">
+<div class="d-md-flex mt-md-1 align-items-center justify-content-center">
+<div class="row position-relative box">
+    <div class="col-lg-4 col-md-12 mb-md-0 px-md-6 align-items-center justify-content-center pd-6 p-md-4 image-align">
+      <img src="./asset/images/Globe.svg" alt="Globe" class="img-fluid">
     </div>
-    <div class="col-lg-8 col-md-6 p-2 ps-md-0 d-flex flex-column justify-content-between">
-      <h2 class="invfu">Decentrealized Exchange</h2>
-      <p id="inwor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
+    <div class="col-8 col-md-12 col-lg-8 p-2 ps-md-0 d-flex flex-column justify-content-between">
+      <h3 class="mt-3 pd-6 mb-0">Decentrealized Exchange</h3>
+      <p class="pt-1 pb-2 mt-4 pd-6" >Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat doloribus, quidem error enim maiores accusantium provident consequatur voluptates quod molestiae reprehenderit vero nesciunt, recusandae sapiente sint commodi nihil neque. elit. Culpa nam quod sunt harum doloremque dolores eum? Velit facilis, nemo nulla enim animi voluptates reiciendis natus, culpa ipsam aliquam perferendis qui!</p>
       <div class="d-flex align-items-end">
-        <div id="align"><button type="button" class="btn btn-outline-secondary btn-lg" id="Launchbtn">Launch App</button></div>
+        <div class="pd-6 align"><button type="button" class="btn btn-primary btn-lg" >Launch App</button></div>
       </div>
     </div>
   </div> 
 </div>
 </div>
+</div>
 </section>
 <!--Roadmap start  -->
-<section class="container">
-<h1 id="prdcts">Roadmap</h1>  
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div class="custom-container"style="">
-        <div class="col-md-12">
-          <div class="status"><img src="./asset/Frame 2.svg"></div>
-            <p class="wod">Q3 2021</p>
-            <h3 id="sta">Orbit Launch</h3>
-            <p id="crdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
+<section>
+<div class="container">
+<h2 class="text-center fw-7 mt-6 mb-6">Roadmap</h2>  
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="inner-swiper-complete">
+          <div class="col-md-12">
+            <p class="d-inline-block complete fw-7">COMPLETED</p>
+              <p class="series d-inline-block fw-5">Q3 2021</p>
+              <h4 class="fw-5 fs-20">Orbit Launch</h4>
+              <p class="text-color fw-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      <div class="swiper-slide">
+        <div class="inner-swiper-complete">
+          <div class="col-md-12">
+            <p class="d-inline-block complete fw-7">COMPLETED</p>
+              <p class="series d-inline-block fw-5">Q4 2021</p>
+            <h4 class="fw-5 fs-20">Orbit Launch</h4>
+            <p class="text-color fw-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>
-    <div class="swiper-slide">
-      <div class="custom-container">
-        <div class="col-md-12">
-          <div class="status"><img src="./asset/Frame 2.svg"></div>
-            <p class="wod">Q4 2021</p>
-          <h3  id="sta">Orbit Launch</h3>
-          <p id="crdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="swiper-slide">
-      <div class="custom-container" style="background:transparent;">
-        <div class="col-md-12">
-          <div>
-            <div class="status"><img src="./asset/Frame 3.svg"></div>
-            <p class="wod">Q1 2022</p>
+      <div class="swiper-slide">
+        <div class="inner-swiper-progess">
+          <div class="col-md-12">
+             <p class="d-inline-block progess fw-7">IN PROGRESS</p>
+              <p class="series d-inline-block fw-5">Q1 2022</p>
+            <h4 class="fw-5 fs-20">Orbit Launch</h4>
+            <p class="text-color fw-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
           </div>
-          <h3 id="sta">Orbit Launch</h3>
-          <p id="crdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner-swiper-coming">
+          <div class="col-md-12">
+           <p class="d-inline-block coming fw-5">COMING SOON</p>
+              <p class="series d-inline-block fw-5">Q2 2022</p>
+            <h4 class="fw-5 fs-20">Orbit Launch</h4>
+            <p class="fw-5 text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner-swiper-coming">
+          <div class="col-md-12">
+           <p class="d-inline-block coming fw-5">COMING SOON</p>
+              <p class="series d-inline-block fw-5">Q2 2022</p>
+            <h4 class="fw-5 fs-20">Orbit Launch</h4>
+            <p class="fw-5 text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Slide 3 -->
-    <div class="swiper-slide">
-      <div class="custom-container" style=" background-color: transparent;">
-        <div class="col-md-12">
-          <div class="status"style="background:#00253B;;"><img src="./asset/Coming soon.svg"> </div>
-            <p class="wod">Q2 2022</p>
-          <h3 id="sta">Orbit Launch</h3>
-          <p id="crdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
+    <div class="d-flex justify-content-center mb-5">
+      <i class="bi bi-arrow-left-circle-fill m-2 previous"></i>
+      <i class="bi bi-arrow-right-circle-fill m-2 next"></i>
     </div>
-    <div class="swiper-slide">
-      <div class="custom-container"style="background-color:transparent">
-        <div class="col-md-12">
-          <div class="status" style="background:#00253B;"><img src="./asset/Coming soon.svg"></div>
-            <p class="wod">Q3 2022</p>
-          <h3 id="sta">Orbit Launch</h3>
-          <p id="crdtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor innt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
+    </div>
     </div>
   </div>
-  
-  <div class="swpbtn">
-    <span class="previous"><i class="bi bi-arrow-left-circle-fill"></i></span>
-    <span class="next"><i class="bi bi-arrow-right-circle-fill"></i></span>
-  </div>
-  </div>
-  </div>
-</section>
+  </section>
 <!--tokenomics start-->
-<section class="tokenomics">
-  <div class="container">
-  <div class="row g-0 bg-body-secondary position-relative"style="background-color:transparent!important;" >
+<section class="tokenomics-background">
+    <div class="container py-5">
     <div class="d-flex position-relative">
-      <div class=" col-lg-7 col-md-7 p-2 ps-md-0 d-flex flex-column justify-content-between" >
-        <h3 class="token">Tokenomics</h3>
-        <p id="inwor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <div class="row g-0 ">
+      <div class="col-7 col-md-7 col-lg-7 p-2 ps-md-0 d-flex flex-column justify-content-between" >
+        <h3 class=" mt-3 mb-0 pt-4 pd-6 fs-56 fw-7">Tokenomics</h2>
+        <p class="pt-1 pb-2 mt-4 pd-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <div class="d-flex align-items-end">
-         <a id="align" href=""><img src="./asset/stats.svg" class="img-fluid"></a>
+         <a class="align pd-6" href=""><img src="./asset/images/stats.svg" class="img-fluid"></a>
         </div>
       </div>
-      <div class="col-lg-5  mb-0 p-md-4" id="imge">
-        <img src="./asset/Orbit.svg" alt="Orbit" class="img-fluid ">
+      <div class="col-5 col-md-5 col-lg-5 mt-4 mb-0 p-md-4">
+        <img src="./asset/images/Orbit.svg" alt="Orbit" class="img-fluid ">
       </div>
     </div>
   </div>
@@ -273,93 +251,89 @@
 </section>
   <!-- team section -->
   <section>
-  <div class="container mt-4">
-    <h1 id="prdcts">Meet Our Team</h1>
+  <div class="container mt-6">
+    <h2 class="text-center fw-7 mt-6 mb-6">Meet Our Team</h2>
     <div class="row">
-      <div class=" col-lg-4 col-md-12 mb-4"> <!-- Adjust the column size to fit your layout -->
-        <div class="card" id="cardbg">
+      <div class=" col-lg-4 col-md-12 mb-4">
+        <div class="card">
           <div class="row g-0">
             <div class="col-lg-4 col-md-2">
-              <img src="./asset/Rectangle 255.svg" class="card-img rounded" id="profile" alt="Team Member Image" >
+              <img src="./asset/images/Rectangle 255.svg" class="card-img rounded mb-1 px-3 mt-4"  alt="Team Member Image" >
             </div>
             <div class=" col-lg-8 col-md-10">
               <div class="card-body">
-                <p class="card-text"id="desig">CEO</p>
-                <h5 class="card-title"id="name">Gary Olen</h5>
+                <p class="designation mt-4 mb-1 ">CEO</p>
+                <h5 class="card-title text-white">Gary Olen</h5>
               </div>
             </div>
           </div>
           <div>
-          <p class="card-text"id="names">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod labore et dolore magna aliqua.</p>
-          <img src="./asset/Group 41.svg" alt="Twitter Logo" class="me-2" id="twitter">
+          <p class="card-text mt-4 mr-2 px-3 text-color">Lorem ipsum dolor sit amet, consectetur adil lo piscing elit. Sed do eiusmod labore et dolore magna aliqua.</p>
+          <img src="./asset/images/Group 41.svg" alt="Twitter Logo" class="me-2 mb-2 px-3 twitter">
         </div>
       </div>
     </div>
-      <div class=" col-lg-4 col-md-12 mb-4"> <!-- Adjust the column size to fit your layout -->
-          <div class="card" id="cardbg">
+      <div class=" col-lg-4 col-md-12 mb-4 ">
+          <div class="card">
               <div class="row g-0">
                   <div class=" col-lg-4 col-md-2">
-                      <img src="./asset/Rectangle 2553.svg" class="card-img rounded" alt="Team Member Image" id="profile">
+                      <img src="./asset/images/Rectangle 2553.svg" class="card-img rounded  mb-1 px-3 mt-4" alt="Team Member Image" id="profile">
                   </div>
                   <div class="col-lg-8 col-md-10">
                       <div class="card-body">
-                        <p class="card-text" id="desig">COO</p>
-                          <h5 class="card-title" id="name">Gary Olen</h5>
-                          
+                        <p class="designation mt-4 mb-1">COO</p>
+                          <h5 class="card-title text-white">Gary Olen</h5>
                         </div>
                       </div>
                     </div>
                     <div> 
-                       <p class="card-text" id="names">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna aliqua.</p>
-                       <img src="./asset/Group 41.svg" alt="Twitter Logo" class="me-2" id="twitter">
+                       <p class="card-text px-3 mr-2 mt-4 text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna aliqua.</p>
+                       <img src="./asset/images/Group 41.svg" alt="Twitter Logo" class="me-2 mb-2 mt-1 px-3" id="twitter">
                       </div>
                     </div>
-      </div>
-      <div class=" col-lg-4 col-md-12 mb-4"> <!-- Adjust the column size to fit your layout -->
-        <div class="card" id="cardbg">
-            <div class="row g-0">
-                <div class=" col-lg-4 col-md-2">
-                    <img src="./asset/Rectangle 255 (1).svg" class="card-img rounded" alt="Team Member Image" id="profile">
-                </div>
-                <div class="col-lg-8 col-md-10">
+                  </div> 
+                  <div class=" col-lg-4 col-md-12 mb-4">
+                  <div class="card">
+                  <div class="row g-0">
+                  <div class=" col-lg-4 col-md-2">
+                    <img src="./asset/images/Rectangle 255 (1).svg" class="card-img rounded mb-2 px-3 mt-4 " alt="Team Member Image" id="profile">
+                    </div>
+                 <div class="col-lg-8 col-md-10">
                     <div class="card-body">
-                      <p class="card-text" id="desig">Project Manager</p>
-                        <h5 class="card-title" id="name">Gary Olen</h5>
+                      <p class="designation mt-4 mb-1">Project Manager</p>
+                        <h5 class="card-title text-white">Gary Olen</h5>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <p class="card-text" id="names">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna aliqua.</p>
-                    <img src="./asset/Group 41.svg" alt="Twitter Logo" class="me-2" id="twitter">
+                    <p class="card-text px-3 mr-2 mt-4 text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna aliqua.</p>
+                    <img src="./asset/images/Group 41.svg" alt="Twitter Logo" class="me-2 mb-2 px-3 mt-1" id="twitter">
                   </div> 
-                  </div>
-    </div>
-      <!-- Add more cards as needed -->
-
-  </div>
-</div>
+                </div>
+               </div>
+            </div>
+         </div>
 </section>
   <!--faq started`-->
   <section>
     <div class="container mt-5 mb-4">
-    <h1 id="head">FAQ</h1>
+      <h3 class="mt-3 mb-0 pt-4  fs-56 fw-7">FAQ</h2>
     <div class="row">
       <div class=" col-lg-6 col-md-12">
-        <div class="accordion" id="accordionExample" data-bs-theme="dark">
-          <div class="accordion-item">
+        <div class="accordion " id="accordionExample" data-bs-theme="dark">
+          <div class="accordion-item ">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed"type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"aria-controls="collapseOne"id="accordhead"style="color: white !important;">What's the difference between M31 and Orbit?</button></h2>
-            <div id="collapseOne"class="accordion-collapse collapse"aria-labelledby="headingOne"style="color:white" data-bs-parent="#accordionExample">
-              <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae saepe odio maxime totam doloremque unde perspiciatis deleniti possimus repudiandae aut error commodi itaque reprehenderit, tenetur quisquam autem eveniet dolor. Sit!</div>
+            <div id="collapseOne"class="accordion-collapse collapse"aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <p class="accordion-body fw-5 text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae saepe odio maxime totam doloremque unde perspiciatis deleniti possimus repudiandae aut error commodi itaque reprehenderit, tenetur quisquam autem eveniet dolor. Sit!</p>
             </div>
-          </div>
-        
+          </div>      
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed"  type="button"data-bs-toggle="collapse"data-bs-target="#collapseTwo"aria-expanded="true"aria-controls="collapseTwo"id="accordhead">How do you plan to use that money for marketing?</button>
             </h2>
             <div id="collapseTwo"class="accordion-collapse collapse"aria-labelledby="headingTwo"data-bs-parent="#accordionExample">
-              <div class="accordion-body">We will sign celebrity influencers, invest in YouTube ads, Social Media Ads,PooCoin Banner Ads, as well as giveaways and other surprises.</div>
+              <p class="accordion-body text-color">We will sign celebrity influencers, invest in YouTube ads, Social Media Ads,PooCoin Banner Ads, as well as giveaways and other surprises.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -367,7 +341,7 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="accordhead">What happened to the old Andromeda M31? </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat numquam at expedita, molestiae obcaecati repudiandae architecto dolores minus? Voluptate similique quaerat itaque aliquam culpa nostrum enim voluptates provident delectus aspernatur.</div>
+                <p class="accordion-body text-color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat numquam at expedita, molestiae obcaecati repudiandae architecto dolores minus? Voluptate similique quaerat itaque aliquam culpa nostrum enim voluptates provident delectus aspernatur.</p>
             </div>
         </div>
         <div class="accordion-item">
@@ -375,7 +349,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="accordhead">How much is the total marketing budget?</button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est, quod officiis hic dicta tempore numquam natus dolorum eveniet. Fugiat ipsum animi id alias beatae mollitia ea, quaerat ducimus atque?</div>
+              <p class="accordion-body text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est, quod officiis hic dicta tempore numquam natus dolorum eveniet. Fugiat ipsum animi id alias beatae mollitia ea, quaerat ducimus atque?</p>
           </div>
       </div>
       <div class="accordion-item">
@@ -383,33 +357,31 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"id="accordhead">What is the vision for Andromeda M31?</button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos officia maiores? Magnam esse quod quam, quos doloremque sit aliquam temporibus repellat iure vel expedita perspiciatis autem officia quasi ipsum!</div>
+            <p class="accordion-body text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos officia maiores? Magnam esse quod quam, quos doloremque sit aliquam temporibus repellat iure vel expedita perspiciatis autem officia quasi ipsum!</p>
         </div>
     </div>
-          <!-- Add more accordion items as needed -->
-        </div>
-      </div>
-      <!-- End Accordion Column -->
+    </div>
+    </div>
      <div class="col-lg-6 col-md-12">
-        <div class="container-with-image">
-          <img src="./asset/amico.svg" alt="Image" class="img-fluid"/>
+        <div class=" d-flex align-items-left pt-4">
+          <img src="./asset/images/amico.svg" alt="Image" class=" accordian-image img-fluid">
         </div>
       </div>
       </div>
     </div>
   </section>
 <!-- Get started  -->
-<section class="star">
+<section class="started-background mt-6 mb-6">
   <div class="container">
   <div class="row align-items-center">
     <div class=" col-lg-12 col-md-12">
       <div class="">
-  <h2 id="wor">GET STARTED NOW</h2>
-      <div class="algn">
-        <button type="button" class="btn btn-primary" id="connectbtn">Join Our Telegram</button>
-        <button type="button" class="btn btn-primary" id="connectbtn">Buy $M31 Now  </button>
+      <h2 class="text-center mt-5 mb-5 fw-7 fs-56">GET STARTED NOW</h2>
+      <div class="mb-5 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-lg m-1 telegram-button">Join our Telegram</button>
+        <button type="button" class="btn btn-primary btn-lg m-1">Buy $M31 Now</button>
       </div>
-      <h6 id="que"> Still have questions? Ask us on Telegram</h6>  
+      <p class="text-center fw-5 mb-5 text-decoration-underline"> Still have questions? Ask us on Telegram</p>  
     </div>
   </div>
   </div>
@@ -417,17 +389,16 @@
   </div>
   </section>
   <!-- footer start -->
-  <section id="foot">
+  <section class="footer pt-4">
     <div class="container-fluid">
         <!-- Logo Section -->
-        <footer class="d-flex justify-content-between align-items-center">
+         <footer class="d-flex justify-content-between align-items-center">
             <a href="/" class="align-items-left">
-                <img src="./asset/Logo.png" class="logo">
+                <img src="./asset/images/Logo.png" class="pt-5">
             </a>
-
             <!-- Links Section -->
-            <div class="links d-flex justify-content-center align-items-center">
-                <a href="">Vision</a>
+            <div class="links d-flex justify-content-center pt-5 mr-2">
+                <a href=""class="mx-3">Vision</a>
                 <a href="#">Products</a>
                 <a href="#">Roadmap</a>
                 <a href="#">Tokenomics</a>
@@ -437,13 +408,13 @@
             </div>
 
             <!-- Social Icons Section -->
-            <div class="social-icons d-flex justify-content-end align-items-end">
-                <a href="#" target="_blank"><img src="./asset/instagram.svg" style="margin-right: 15px;"></a>
-                <a href="#" target="_blank"><img src="./asset/telegram.svg" style="margin-right: 15px;"></a>
-                <a href="#" target="_blank"><img src="./asset/twitter.svg" style="margin-right: 15px;"></a>
+            <div class="pt-5 mt-2 d-flex justify-content-end align-items-end">
+                <a href="#" target="_blank"><img src="./asset/images/instagram.svg" style="margin-right: 15px;"></a>
+                <a href="#" target="_blank"><img src="./asset/images/telegram.svg" style="margin-right: 15px;"></a>
+                <a href="#" target="_blank"><img src="./asset/images/twitter.svg" style="margin-right: 15px;"></a>
             </div>
         </footer>
-        <div class="copyright text-center">
+        <div class="pt-5 justify-content-bottom pb-2 text-color text-center">
             &copy; 2024 Orbit. All Rights Reserved.
         </div>
     </div>
@@ -451,7 +422,7 @@
 
 
 
-</section>
+</section><!-- main -->
   
 
 
@@ -475,9 +446,9 @@
 <script>
   $(window).scroll(function() {
   if ($(this).scrollTop() > 50) {
-    $('#navbar').addClass('scrolled');
+    $('.navbar-dark').addClass('scrolled');
   } else {
-    $('#navbar').removeClass('scrolled');
+    $('.navbar-dark').removeClass('scrolled');
   }
 });
 </script>
