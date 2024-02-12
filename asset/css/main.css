@@ -28,9 +28,6 @@ h3{
 .pd-6{
   padding:64px;
 }
-.px-md-6{
-  padding-left: px!important;
-}
 .text-color{
   color: #BAB8CC;
   }
@@ -62,22 +59,18 @@ p{
 .hero-section{
 overflow: hidden; 
 } 
-
 .navbar-brand{
-padding-left:10px!important;
+padding-left:10px;
 }
 #navbar {
-  background-color: transparent;
-  color:white!important;  
+  background-color: transparent;  
   transition: background-color 0.3s ease;
 }
 #navbar.scrolled {
   background-color: #001926;
 }
 .nav-link{  
-color:var(--color-white)!important;
-margin-top: 10px!important; 
-margin-right: 10px
+color:white;
 }
 .nav-button{
   padding-top: 10px !important;
@@ -138,14 +131,10 @@ background-repeat:no-repeat;
   margin-bottom: 24px;
 }
 .image-align{
-  margin-left: 30px;
-  margin-top:50px;
+
   max-width: 100%;
   height:auto;
   width: auto;
-}
-.align{
-  padding-top:5px!important;
 }
 /* Roadmap start */
 .inner-swiper-complete{
