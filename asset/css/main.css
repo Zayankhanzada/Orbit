@@ -52,16 +52,13 @@ p{
   }
   .fs-56{
     font-size:56px;
-}
-  .mt-7{
+} 
+.mt-7{
     margin-top:160px!important;
   }
 .hero-section{
 overflow: hidden; 
 } 
-.navbar-brand{
-padding-left:10px;
-}
 #navbar {
   background-color: transparent;  
   transition: background-color 0.3s ease;
@@ -72,12 +69,7 @@ padding-left:10px;
 .nav-link{  
 color:white;
 }
-.nav-button{
-  padding-top: 10px !important;
-  padding-bottom: 10px; 
-}
 /* home starts */
-
 .home{ 
   background: linear-gradient(180deg, rgba(6, 17, 28, 0.00) 34.38%, #06111C 100%), url('/asset/images/bgimage.svg'), lightgray 50% ;
   background-size: cover;
@@ -131,7 +123,6 @@ background-repeat:no-repeat;
   margin-bottom: 24px;
 }
 .image-align{
-
   max-width: 100%;
   height:auto;
   width: auto;
