@@ -6,24 +6,27 @@ html, body {
     padding: 0;
     background-color: #06111C; 
 }
-h2{
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; /* 107.143% */
-  letter-spacing: 1.12px; 
-}
+
 h3{
-  font-size:32px;
+  font-size:50px;
   padding-bottom:0px!important;
 }
 .fw-5{
-  font-weight: 500!important;
+  font-weight: 500;
 }
 .fw-7{
-  font-weight: 700!important;
+  font-weight: 700;
 }
 .mb-6{
-  margin-bottom:100px;
+  margin-bottom:40px;
+}
+.my-6 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.py-6 {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .pd-6{
   padding:64px;
@@ -39,7 +42,6 @@ p{
     padding:12px 24px;
     justify-content: center;
     font-size:16px;
-    font-weight: 400;
     border:1px solid #867EE8;  
     border-radius:16px!important;
     background:var(--color-purple, #867EE8);}
@@ -50,48 +52,52 @@ p{
   .mt-6{
     margin-top:100px;
   }
-  .fs-56{
-    font-size:56px;
+  h1{
+    font-size:53px;
 } 
+h5{
+  font-size: 20px;
+}
 .mt-7{
     margin-top:160px!important;
   }
 .hero-section{
 overflow: hidden; 
-} 
+width: 100%;} 
 #navbar {
-  background-color: transparent;  
-  transition: background-color 0.3s ease;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
 }
 #navbar.scrolled {
-  background-color: #001926;
+  background-color: #06111C;
 }
 .nav-link{  
 color:white;
+margin-right:20px;
 }
-/* home starts */
+.nav-link:hover{
+  color: white;
+}
+/* home starts */  
 .home{ 
-  background: linear-gradient(180deg, rgba(6, 17, 28, 0.00) 34.38%, #06111C 100%), url('/asset/images/bgimage.svg'), lightgray 50% ;
+  background: linear-gradient(180deg, rgba(6, 17, 28, 0) 34.38%, #06111c 100%), url(/asset/images/bgimage.png) center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 .color-word{
-  color: var(--color-purple, #867EE8);
-  margin-bottom: 25%;
+  color:#867EE8;
 }
 #btn {
   background-color:#29D9D0;
   color: black;
+  border:none;  
     }
 #btn:hover{
 background-color:#1A9990;
+border:none;
     }
 .featured{
-  padding-top:90px;
-  gap: 20px ;
-  align-items: center;
-  padding-bottom:70px;
+margin-bottom: 80px;
+margin-right:20px
 }
 .tag-line{
 font-size: 22px;
@@ -108,7 +114,8 @@ padding-top:40px;
     #ifrm{   
       width: 100% !important;
       aspect-ratio:  16/9; ;
-    }   
+    } 
+
 /* Products start */
 .product-background{
 background-image:url('/asset/images/Ellips.svg');
@@ -121,11 +128,6 @@ background-repeat:no-repeat;
   background-color:#001926;
   backdrop-filter: blur(10px)!important;
   margin-bottom: 24px;
-}
-.image-align{
-  max-width: 100%;
-  height:auto;
-  width: auto;
 }
 /* Roadmap start */
 .inner-swiper-complete{
@@ -186,25 +188,21 @@ border: 2px solid #001926;
 /* tokenomics */
 .tokenomics-background{
   background-image:url('/asset/images/Ellise.svg')!important;
-  background-position: left;
   background-repeat:no-repeat!important;
   }
 /* team section */
 .card{
-  background: var(--color-background, #001926);
+color:white;
+  background-color:#001926;
   border-radius: 16px;
-}
-.designation{
-  color: var(--color-purple, #867EE8);
-}
-.twitter{ 
-  height: 16px;
+  max-width: 414px;
 }
 /* faq starts */
 #accordhead{
   background-color: #001926 !important; 
   box-shadow: none;
   border-radius: 16px;
+  line-height: 50px;
 }
 .accordion-button{
   padding: 0px;
@@ -251,11 +249,88 @@ border:none!important;
 .footer {
   background-color: #001926;
 }
-.links {
-  gap: 28px;
+
+@media screen and (max-width: 1199.97px) {
+  .navbar ul li {
+      margin: 0 10px;
+  }
 }
-.links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
+
+@media screen and (max-width: 991.97px) {
+h1 {
+      font-size: 44px;
+  }
+  p {
+      font-size: 19px;
+  }
+  .pd-6 {
+      padding: 50px;
+  }
+  .mb-7 {
+      margin-bottom: 50px;
+  }
+  .my-6 {
+      margin-top: 80px;
+      margin-bottom: 80px;
+  }
+  .py-6 {
+      padding-top: 75px;
+      padding-bottom: 75px;
+  }
+  .py-6 {
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 575.97px) {
+  .mb-6 {
+      margin-bottom: 24px;
+  }
+  .mb-7 {
+      margin-bottom: 25px;
+  }
+  .my-6 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  .mt-6 {
+      margin-top: 24px;
+  }
+  .p-7 {
+      padding: 24px;
+  }
+  p {
+      font-size: 18px;
+      line-height: 22px;
+  }
+  h3 {
+      font-size: 32px;
+      line-height: 38px;
+  }
+h1{
+      font-size: 24px;
+  }
+  h1 {
+      font-size: 20px;
+  }
+  .py-6 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .modal-dialog {
+      max-width: 100%;
+  }
+  .btn.btn-primary{
+      display: block;
+  }
+  .btn.btn-primary {
+      width: 100%;
+  }
+  .navbar ul li {
+      margin: 14px 0;
+  }
+  .modal-body {
+      padding: 0;
+  }
 }
