@@ -6,12 +6,6 @@
       background-color: #06111C;
       overflow-x:hidden ;
   }
-  .fw-5{
-    font-weight: 500;
-  }
-  .fw-7{
-    font-weight: 700;
-  }
   a{
     text-decoration: none;
   }
@@ -209,7 +203,7 @@
   /* tokenomics */
   .tokenomics-background{
     background-image:url('/asset/images/Ellise.svg')!important;
-  width: 100%;
+    width: 100%;
     background-repeat:no-repeat!important;
     }
   /* team section */
