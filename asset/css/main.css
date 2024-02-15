@@ -9,6 +9,11 @@
   a{
     text-decoration: none;
   }
+  img{
+    width:auto;
+    height:auto;
+    max-width: 100%;
+  }
   .mb-6{
     margin-bottom:40px;
   }
@@ -44,8 +49,8 @@
       justify-content: center;
       font-size:16px;
       line-height: normal;
-      border:1px solid #867EE8;  
-      border-radius:16px!important;
+      border:none;  
+      border-radius:16px;
       background:var(--color-purple, #867EE8);}
     /* comman button */
     .btn.btn-primary:hover{
@@ -57,11 +62,17 @@
     h1{
       font-size:52px;
   } 
+  .cus-h3{
+    font-size:32px;
+  }
+  h2{
+    font-size: 56px;
+  }
   h5{
     font-size: 20px;
   }
   .mt-7{
-      margin-top:160px!important;
+      margin-top:160px;
     }
   #navbar {
     background-color: transparent;
@@ -87,8 +98,6 @@
   }
   #btn {
     background-color:#29D9D0;
-    color: black;
-    border:none;  
       }
   #btn:hover{
   background-color:#1A9990;
@@ -119,7 +128,7 @@
         width: 48px;
         height: 48px;
         border-radius: 50%;
-        font-size: 20px !important;
+        font-size: 20px;
     }
     .modal-dialog {
         max-width: 80%;
@@ -129,7 +138,6 @@
         height: auto;
         aspect-ratio: 16/9;
     }
-
   /* Products start */
   .product-background{
   background-image:url('/asset/images/Ellips.svg');
@@ -141,7 +149,7 @@
     height:auto;
     border-radius:24px;
     background-color:#001926;
-    backdrop-filter: blur(10px)!important;
+    backdrop-filter: blur(10px);
     margin-bottom: 24px;
   }
   /* Roadmap start */
@@ -202,9 +210,9 @@
   }   
   /* tokenomics */
   .tokenomics-background{
-    background-image:url('/asset/images/Ellise.svg')!important;
+    background-image:url('/asset/images/Ellise.svg');
     width: 100%;
-    background-repeat:no-repeat!important;
+    background-repeat:no-repeat;
     }
   /* team section */
   .card{
@@ -215,8 +223,9 @@
   }
   /* faq starts */
   #accordhead{
-    background-color: #001926 !important; 
+    background-color: #001926 ; 
     box-shadow: none;
+    color: #F4F4F4;
     border-radius: 16px;
     line-height: 50px;
   }
@@ -225,13 +234,10 @@
     padding-right: 10px;
     padding-left:20px;
   }
-  .accordion-button:not(collapsed){
-    color: white!important;
-  }
   #accordionExample .accordion-item {
   border-radius:16px;
   background-color: #001926; 
-  border:2px solid #001926 !important;
+  border:2px solid #001926;
   margin-top:24px ;
   }
   #accordhead.accordion-button::after{
@@ -251,11 +257,7 @@
     width: 100%; 
     border-radius: 20px;  
   }
-  .telegram-button{
-  background-color:#296FD9!important;
-  border:none!important;
-  }
-  .telegram-button:hover{
+  .bg-primary:hover{
     background-color:#155BBC!important;
   }
   .text-decoration-underline:hover{
@@ -265,16 +267,17 @@
   .footer {
     background-color: #001926;
   }
-
   @media screen and (max-width: 1199.97px) {
 .navbar, ul, li {
         margin: 0 10px;
     }
   }
-
   @media screen and (max-width: 991.97px) {
   h1 {
         font-size: 40px;
+    }
+    h2{
+      font-size: 40px;
     }
     p {
         font-size: 19px;
@@ -297,6 +300,9 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    h2{
+      font-size:40px ;
+    }
     .mt-6 {
         margin-top: 24px;
     }
@@ -307,7 +313,7 @@
         font-size: 16px;
         line-height: 22px;
     }
-    h3 {
+    .cus-h3 {
         font-size: 32px;  
         line-height: 38px;
     }
