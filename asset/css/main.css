@@ -81,6 +81,7 @@
   #navbar.scrolled {
     background-color: #06111C;
   }
+
   .nav-link{  
   color:white;
   margin-right:20px;
@@ -243,11 +244,6 @@
   #accordhead.accordion-button::after{
   background-image:url("/asset/images/chevron-down.svg");
   }
-  .accordian-image {
-    max-width: 100%;
-    height: auto;
-  
-  }
   /* Get started */
   .started-background{
     background-image: url('/asset/images/elie.svg'), url('/asset/images/Ellipse.svg');
@@ -314,7 +310,7 @@
         line-height: 22px;
     }
     .cus-h3 {
-        font-size: 32px;  
+        font-size: 30px;  
         line-height: 38px;
     }
   h1{
