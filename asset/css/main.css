@@ -36,14 +36,10 @@
     color: #BAB8CC;
     }
   p{   
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 400; 
     }
-    .custom-p {
-      font-size: 16px;
-      line-height: 22px;
-      }
     .btn.btn-primary{
       padding:12px 24px;
       justify-content: center;
@@ -59,16 +55,16 @@
     .mt-6{
       margin-top:100px;
     }
-    h1{
-      font-size:52px;
+  h1{
+      font-size:53px;
   } 
-  .cus-h3{
-    font-size:32px;
-  }
   h2{
     font-size: 56px;
   }
-  h5{
+  h3{
+    font-size:32px;
+  }
+  h4{
     font-size: 20px;
   }
   .mt-7{
@@ -81,7 +77,6 @@
   #navbar.scrolled {
     background-color: #06111C;
   }
-
   .nav-link{  
   color:white;
   margin-right:20px;
@@ -94,7 +89,7 @@
     background: linear-gradient(180deg, rgba(6, 17, 28, 0) 34.38%, #06111c 100%), url(/asset/images/bgimage.png) center center;
     background-size: cover;
   }
-  .color-word{
+  .color-purple{
     color:#867EE8;
   }
   #btn {
@@ -117,6 +112,8 @@
   /* Vision starts */
   .shaded-line{
       padding: 8px;
+      font-size: 22px;
+      line-height: 30px;
       border-left:4px solid #867EE8;
   } 
   .video>a {
@@ -296,26 +293,29 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .mt-6 {
+      margin-top: 24px;
+    }
+    .pd-6 {
+      padding: 24px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    h1{
+      font-size: 40px;
+    }
     h2{
       font-size:40px ;
     }
-    .mt-6 {
-        margin-top: 24px;
-    }
-    .pd-6 {
-        padding: 24px;
-    }
-    p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .cus-h3 {
+    h3{
         font-size: 30px;  
         line-height: 38px;
     }
-  h1{
-        font-size: 40px;
-    }
+  h4{
+    font-size:18px;
+  }
     .py-6 {
         padding-top: 40px;
         padding-bottom: 40px;
