@@ -161,6 +161,7 @@
     background: linear-gradient(90deg, rgba(134, 126, 232, 0.16) 0%, rgba(134, 126, 232, 0.00) 100%), #06111C;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
+    border: 2px;
     padding: 24px; 
   }
   .inner-swiper-coming{
@@ -176,10 +177,9 @@
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
       margin-bottom: 10%;
     }
-  .swiper-container{
-      width:414px;
-      margin:auto;
-    }
+.swiper-container{
+  width:100%
+}
   .bi{
       font-size:30px;
     }
@@ -223,11 +223,9 @@
   .tokenomics div a:nth-of-type(2) span {  
     background-color: #29d9d0;
   }
-  
   .tokenomics div a:nth-of-type(3) span {
       background-color: #00d98d;
   }
-  
   .tokenomics div a:nth-of-type(4) span {
       background-color: #296fd9;
   }
@@ -305,8 +303,7 @@
         padding-top: 75px;
         padding-bottom: 75px;
     }
-    
-  }
+}
   @media screen and (max-width: 575.97px) {
     .my-6 {
         margin-top: 40px;
@@ -364,5 +361,8 @@
       }
       .modal-body {
           padding: 0;
+      }
+      .swiper-container{
+        width:auto!important;
       }
   }

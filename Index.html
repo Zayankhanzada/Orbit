@@ -524,8 +524,11 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
+      slidesPerView:3,
+      loop:true,
       spaceBetween: 10,
+      autoheight:true,
+
       navigation: {
         nextEl: '.next',
         prevEl: '.previous',
