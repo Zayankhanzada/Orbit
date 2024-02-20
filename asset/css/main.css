@@ -207,11 +207,30 @@
     color: var(--color-purple, #867EE8);
   }   
   /* tokenomics */
-  .tokenomics-background{
+  .tokenomics{
     background-image:url('/asset/images/Ellise.svg');
     width: 100%;
     background-repeat:no-repeat;
     }
+    .tokenomics div a span {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      border-radius: 100%;
+     background-color: #867EE8;
+    }
+
+  .tokenomics div a:nth-of-type(2) span {  
+    background-color: #29d9d0;
+  }
+  
+  .tokenomics div a:nth-of-type(3) span {
+      background-color: #00d98d;
+  }
+  
+  .tokenomics div a:nth-of-type(4) span {
+      background-color: #296fd9;
+  }
   /* team section */
   .card{
   color:white;
@@ -323,8 +342,9 @@
     .modal-dialog {
         max-width: 100%;
     }
-    .btn.btn-primary{
+    .button-alignment{
         display: block;
+
     }
     .btn.btn-primary {
         width: 100%;
