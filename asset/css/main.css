@@ -348,7 +348,7 @@
     .modal-body {
         padding: 0;
     }
-    .cus-p {
+    p {
       font-size: 14px;
       line-height: 20px;
   }
@@ -357,8 +357,5 @@
       }
       .modal-body {
           padding: 0;
-      }
-      .swiper-container{
-        width:414px;
       }
   }

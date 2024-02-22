@@ -528,19 +528,18 @@ var swiper = new Swiper('.swiper-container', {
   centeredslides:true,
   spaceBetween:20,
   breakpoints: {
-  992:{
+    320: {
+      slidesPerView: 1,
+      spaceBetween:5,
+    },
+    992:{
     slidesPerView:3,
     spaceBetween:10,
   },
-    578: {
-      slidesPerView: 1,
-      spaceBetween:10,
-      width:414,
-    },
     1200:{
       slidesPerView:3,
       spaceBetween:10,
-      
+
     }
   },
   navigation: {
