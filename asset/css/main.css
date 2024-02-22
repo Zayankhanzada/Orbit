@@ -153,7 +153,7 @@
   /* Roadmap start */
   .inner-swiper-complete{
     background-color: #001926;
-    border: 2px solid #001926 ;
+    border: 3px solid #001926 ;
     border-radius: 16px;
     padding: 24px;
     }
@@ -161,7 +161,7 @@
     background: linear-gradient(90deg, rgba(134, 126, 232, 0.16) 0%, rgba(134, 126, 232, 0.00) 100%), #06111C;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-    border: 2px;
+    border: 3px;
     padding: 24px; 
   }
   .inner-swiper-coming{
@@ -177,9 +177,6 @@
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
       margin-bottom: 10%;
     }
-.swiper-container{
-  width:100%
-}
   .bi{
       font-size:30px;
     }
@@ -262,7 +259,6 @@
   .started-background{
     background-image: url('/asset/images/elie.svg'), url('/asset/images/Ellipse.svg');
     background-size: cover;
-
     margin-right: 20px;
     width: 100%; 
     border-radius: 20px;  
@@ -363,6 +359,6 @@
           padding: 0;
       }
       .swiper-container{
-        width:auto!important;
+        width:414px;
       }
   }
