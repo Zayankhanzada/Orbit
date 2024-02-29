@@ -77,7 +77,7 @@
       font-size: 22px;
     }
   h1{
-      font-size:53px;
+      font-size:52px;
       font-weight: bold;
   } 
   h2{
@@ -96,6 +96,7 @@
     }
   .navbar {
     background-color: transparent;
+    width: 100vw;
     transition: background-color 0.2s ease;
   }
   .navbar.scrolled {
@@ -163,20 +164,24 @@
     background-color:#001926;
     backdrop-filter: blur(10px);
   }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
   /* Roadmap start */
   .Roadmap-card{
     border-radius: 16px;
     border: 3px;
     padding: 24px;    
   }
-  .card-complete{
+  .complete{
     background-color: #001926;
     }
-  .card-progess{
+  .progess{
     background: linear-gradient(90deg, rgba(134, 126, 232, 0.16) 0%, rgba(134, 126, 232, 0.00) 100%), #06111C;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
   }
-  .card-coming{
+  .coming{
   background-color:#06111C;
   }
   .swiper-slide-active{
@@ -187,13 +192,13 @@
     }
   .icons{
     border: 2px solid white ;
-    color: #001926;
-    background-color: white;
+    color: #F4F4F4;
+    background-color:transparent;
     border-radius:100% ;
   }
   .icons:hover{
-    background-color: #808080;
-    color: white;
+    background-color: #F4F4F4;
+    color: #001926;
   }
  .disabled{
  border:2px solid #808080;
@@ -201,21 +206,18 @@
  background-color: transparent;
  border-radius: 100%;       
     }
-  .status{
-    font-size: 12px;
-    padding:4px;
-    border-radius: 4px;
-    font-weight:bold;
+  .badge{
+    padding:8px;
   }
-    .complete{
+    .bg-complete{
       color: #06111C;
       background-color:#00D98D;
     } 
-  .progess{
+  .bg-progess{
     color: #06111C;
     background-color:#29D9D0;
   } 
-  .coming{
+  .bg-coming{
     background-color:#001926;
   } 
   .series{
@@ -297,12 +299,12 @@ background-size: cover;
   }
   @media screen and (max-width: 1199.97px) {
 .navbar, ul, li {
-        margin: 0 10px;
+        margin: 0 ;
     }
   }
   @media screen and (max-width: 991.97px) {
   h1 {
-        font-size: 40px;
+        font-size: 52px;
     }
     h2{
       font-size: 40px;
@@ -311,7 +313,7 @@ background-size: cover;
         font-size: 16px;
     }
     .product-cards-layout {
-        padding: 30px;
+        padding: 20px;
     }
     .my-6 {
         margin-top: 80px;
@@ -322,6 +324,7 @@ background-size: cover;
         padding-bottom: 75px;
     }
 }
+
   @media screen and (max-width: 575.97px) {
     .my-6 {
         margin-top: 40px;
