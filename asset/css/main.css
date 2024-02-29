@@ -256,7 +256,7 @@ height: 88px;
 background-size: cover;
   }
   /* faq starts */
-  .accordian-header{
+  #accord-head{
     background-color: #001926 ; 
     box-shadow: none;
     color: #F4F4F4;
@@ -272,8 +272,9 @@ background-size: cover;
   border:2px solid #001926;
   margin-top:24px ;
   }
-  .accordian-header.accordion-button::after{
+  #accord-head.accordion-button::after{
   background-image:url("/asset/images/chevron-down.svg");
+  
   }
   /* Get started */
   .started-background{
