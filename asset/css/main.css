@@ -61,7 +61,7 @@
     color: black;
     }
     .mt-6{
-      margin-top:100px;
+      margin-top:80px;
     }
     .mb-7{
       margin-bottom:64px;
@@ -322,7 +322,7 @@ background-size: cover;
         padding-bottom: 75px;
     }
     .mb-7{
-      margin-bottom:32px;
+      margin-bottom:58px;
     }
 }
 
@@ -331,6 +331,9 @@ background-size: cover;
     .py-12{
       padding-top:70px;
       padding-bottom:70px;
+    }
+    .mb-7{
+margin-bottom: 57px;
     }
     .mt-4{
       margin-top:15px;
