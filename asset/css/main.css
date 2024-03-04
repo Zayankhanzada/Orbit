@@ -63,6 +63,9 @@
     .mt-6{
       margin-top:100px;
     }
+    .mb-7{
+      margin-bottom:64px;
+    }
     .fs-20{
       font-size: 20px;
     }
@@ -84,9 +87,6 @@
     font-size: 20px;
     margin-top: 15px;
   }
-  .mt-7{
-      margin-top:160px;
-    }
   .navbar {
     background-color: transparent;
     width: 100vw;
@@ -232,16 +232,16 @@
       width: 13px;
       height: 13px;
       border-radius: 100%;}
-      .purple{
+      .bg-purple{
         background-color: #867EE8;
       }
-   .cyan {  
+   .bg-cyan {  
     background-color: #29d9d0;
   }
-  .green{
+  .bg-green{
       background-color: #00d98d;
   }
-  .blue{
+  .bg-blue{
       background-color: #296fd9;
   } 
   /* team section */
