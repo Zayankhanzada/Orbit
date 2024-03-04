@@ -313,21 +313,24 @@ background-size: cover;
     .product-cards-layout {
         padding: 35px;
     }
-    .my-6 {
-        margin-top: 80px;
-        margin-bottom: 80px;
+    .py-12{
+      padding-top:80px;
+      padding-bottom: 80px;
     }
     .py-6 {
         padding-top: 75px;
         padding-bottom: 75px;
     }
+    .mb-7{
+      margin-bottom:32px;
+    }
 }
 
   @media screen and (max-width: 575.97px) {
-    
-    .my-6 {
-        margin-top: 40px;
-        margin-bottom: 40px;
+  
+    .py-12{
+      padding-top:70px;
+      padding-bottom:70px;
     }
     .mt-4{
       margin-top:15px;
