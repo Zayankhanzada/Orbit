@@ -261,7 +261,7 @@ background-size: cover;
     box-shadow: none;
     color: #F4F4F4;
     border-radius: 16px;
-    line-height: 50px;
+    padding: 20px 20px;
   }
   .accordion-button{
     padding: 0 20px;
@@ -345,6 +345,8 @@ margin-bottom: 57px;
     }
     .product-cards-layout{
       padding:10px;
+      padding-bottom:30px;
+      
     }
     p {
       font-size: 14px;
