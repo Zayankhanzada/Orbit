@@ -18,10 +18,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .py-6{
-    padding-top: 50px;
-    padding-bottom:50px;
-  }
+  
   .grey-text{
     color: #BAB8CC;
     }
@@ -86,6 +83,10 @@
   h4{
     font-size: 20px;
     margin-top: 15px;
+  }
+  h5{
+    font-size:18px;
+    font-weight: 400;
   }
   .navbar {
     background-color: transparent;
@@ -262,9 +263,7 @@ background-size: cover;
     color: #F4F4F4;
     border-radius: 16px;
   }
-.accordion-body {
-    padding:24px;
-}
+  
   #accordionExample .accordion-item {
   border-radius:16px;
   background-color: #001926; 
@@ -272,7 +271,6 @@ background-size: cover;
   }
   #accord-head.accordion-button::after{
   background-image:url("/asset/images/chevron-down.svg");
-  
   }
   /* Get started */
   .started-background{
@@ -293,7 +291,7 @@ background-size: cover;
   .footer {
     background-color: #001926;
   }
-  @media screen and (max-width: 1199.97px) {
+  @media screen and (max-width: 1199.98px) {
 .navbar, ul, li {
         margin: 0 ;
     }
@@ -303,25 +301,59 @@ background-size: cover;
         font-size: 52px;
     }
     h2{
-      font-size: 40px;
-    }
-    p {
-        font-size: 16px;
+      font-size: 50px;
     }
     .product-cards-layout {
-        padding: 54px;
+        padding: 60px;
     }
     .py-12{
-      padding-top:80px;
-      padding-bottom: 80px;
+      padding-top:100px;
+      padding-bottom:100px;
     }
-    .py-6 {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
+    
     .mb-7{
-      margin-bottom:58px;
+      margin-bottom:60px;
     }
+}
+@media screen and (max-width:767.98px) {
+ h1{
+  font-size: 51px;
+ } 
+ h2{
+font-size: 45px;
+ }
+ h3{
+  font-size: 31px;  
+  line-height: 38px;
+}
+h4{
+font-size:19px;
+}
+h5{
+  font-size: 17px;
+}
+p{
+  font-size: 15px;
+}
+.product-cards-layout{
+  padding:45px;
+}
+.py-12{
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+.mb-7{
+    margin-bottom: 58px;
+}
+.mt-4{
+  margin-top:16px;
+}
+.mt-6{
+  margin-top:70px ;
+}
+.shaded-line{
+  font-size: 17px;
+}
 }
   @media screen and (max-width: 575.97px) {
   
@@ -336,14 +368,11 @@ margin-bottom: 57px;
       margin-top:15px;
     }
     .mt-6 {
-      margin-top: 24px;
+      margin-top: 60px;
     }
-    .product-cards {
-      padding: 15px;
-    }
+    
     .product-cards-layout{
       padding:30px;
-      
     }
     p {
       font-size: 14px;
@@ -362,24 +391,22 @@ margin-bottom: 57px;
   h4{
     font-size:18px;
   }
-    .py-6 {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  
+h5{
+  font-size: 17px;
+}
     .shaded-line{
       font-size: 16px;
     }
     .modal-dialog {
         max-width: 100%;
     }
-
     .navbar ul li {
         margin: 15px 0;
     }
     .modal-body {
         padding: 0;
     }
-
   .modal-dialog {
           max-width: 100%;
       }
