@@ -55,6 +55,9 @@
   background-color: #00d98d!important;
   color: black;
 }
+.bg-dark{
+  background-color: #001926!important;
+}
 .text-primary{
   color:#867EE8!important;
 }
@@ -213,17 +216,6 @@ h1,h2,h3,h4,h5,h6{
     }
   .badge{
     padding:8px;
-  }
-  .bg-complete{
-      color: #06111C;
-      background-color:#00D98D;
-    } 
-  .bg-progess{
-    color: #06111C;
-    background-color:#29D9D0;
-  } 
-  .bg-coming{
-    background-color:#001926;
   }
   /* tokenomics */
   .tokenomics-section{
