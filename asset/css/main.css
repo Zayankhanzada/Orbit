@@ -1,11 +1,11 @@
   html, body {
       margin: 0;
       color:#F4F4F4;
-      font-family:"Luxora Grotesk", sans-serif!important;   
+      font-family:"Luxora Grotesk","Inter", sans-serif!important;   
       padding: 0;
       background-color: #06111C;
       overflow-x:hidden ;
-  } 
+  }
   a{
     text-decoration: none;
   }
@@ -18,14 +18,8 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  
-  .grey-text{
-    color: #BAB8CC;
-    }
   p{   
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 400; 
+    font-family:"Inter",sans-serif;
     margin:0;
     }
     .btn{
@@ -35,28 +29,39 @@
       border:none;  
       border-radius:16px;
      }
-    /* comman button */
-    .btn-primary{
-      background-color: #867EE8;
-    }
-    .btn-seceondary{
-      background-color: #296fd9;
-      color: white;
-    }
-    .btn-seceondary:hover{
-      background-color: #155BBC;
-    }
-    .btn.btn-primary:hover{
-      background-color:#5E57B4;
-    }
-    .btn-success{
-      background-color: #29D9D0;
-      color: black;
-    }
-    .btn-success:hover{
-      background-color:#1A9990; 
-    color: black;
-    }
+     /* colors */
+.bg-primary{
+  color: #F4F4F4;
+  background-color: #867EE8!important;
+}
+.bg-primary:hover{
+  background: #867EE8;
+}
+.bg-seceondary{
+  background-color: #29D9D0;
+  color: black;
+}
+.bg-seceondary:hover{
+  color:black;
+  background-color: #29d9d0;
+}
+.bg-blue{
+  background-color: #296fd9;
+}
+.bg-blue:hover{
+  background: #296fd9;
+}
+.bg-success{
+  background-color: #00d98d!important;
+  color: black;
+}
+.text-primary{
+  color:#867EE8!important;
+}
+.text-seceondary{
+  color:#BAB8CC;
+}
+
     .mt-6{
       margin-top:80px;
     }
@@ -76,9 +81,11 @@
   h2{
     font-size: 56px;
     font-weight: bold;
+  
   }
   h3{
     font-size:32px;
+    margin-top: 10px;
   }
   h4{
     font-size: 20px;
@@ -108,16 +115,13 @@
     background: linear-gradient(180deg, rgba(6, 17, 28, 0) 34.38%, #06111c 100%), url(/asset/images/bgimage.png) center center;
     background-size: cover;
   }
-  .text-purple{
-    color:#867EE8;
-  }
+
   .featured{
   margin-bottom: 80px;
   margin-right:20px
   }
   .tag-line{
   font-size: 22px;
-  line-height:34px;
   margin-bottom:40px;
   padding-top:40px;
   }
@@ -208,7 +212,7 @@
   .badge{
     padding:8px;
   }
-    .bg-complete{
+  .bg-complete{
       color: #06111C;
       background-color:#00D98D;
     } 
@@ -218,10 +222,7 @@
   } 
   .bg-coming{
     background-color:#001926;
-  } 
-  .series{
-    color:#867EE8;
-  }   
+  }
   /* tokenomics */
   .tokenomics-section{
     background-image:url('/asset/images/Ellise.svg');
@@ -233,18 +234,7 @@
       width: 13px;
       height: 13px;
       border-radius: 100%;}
-      .bg-purple{
-        background-color: #867EE8;
-      }
-   .bg-cyan {  
-    background-color: #29d9d0;
-  }
-  .bg-green{
-      background-color: #00d98d;
-  }
-  .bg-blue{
-      background-color: #296fd9;
-  } 
+ 
   /* team section */
   .team-section .card{
     color:white;
@@ -252,7 +242,7 @@
     border-radius: 16px;
   }
   .img-wrapper{
-width: 88px;
+min-width:88px;
 height: 88px;
 background-size: cover;
   }
@@ -275,13 +265,9 @@ background-size: cover;
   /* Get started */
   .started-background{
     background-image: url('/asset/images/elie.svg'), url('/asset/images/Ellipse.svg');
-    background-size: cover;
-    margin-right: 20px;
-    width: 100%; 
-    border-radius: 20px;  
-  }
-  .bg-primary:hover{
-    background-color:#155BBC!important;
+    background-position:left top, right bottom;
+    background-repeat: no-repeat;
+    border-radius: 16px;  
   }
   .text-decoration-underline:hover{
     cursor:pointer;
@@ -323,14 +309,14 @@ background-size: cover;
 font-size: 45px;
  }
  h3{
-  font-size: 31px;  
-  line-height: 38px;
+  font-size: 28px;  
+  
 }
 h4{
-font-size:19px;
+font-size:20px;
 }
 h5{
-  font-size: 17px;
+  font-size: 18px;
 }
 .gap-4{
   gap: 12px!important;
@@ -352,8 +338,8 @@ h5{
 .mt-6{
   margin-top:70px ;
 }
-.shaded-line{
-  font-size: 17px;
+.fs-22{
+  font-size: 20px;
 }
 }
   @media screen and (max-width: 575.97px) {
@@ -371,7 +357,9 @@ margin-bottom: 57px;
     .mt-6 {
       margin-top: 60px;
     }
-    
+    .fs-22{
+      font-size: 18px;
+    }  
     .product-cards-layout{
       padding:30px;
     }
@@ -382,22 +370,21 @@ margin-bottom: 57px;
       font-size:32px ;
     }
     h3{
-        font-size: 30px;  
-        line-height: 38px;
+        font-size: 24px;
     }
   h4{
-    font-size:18px;
+    font-size:20px;
   }
   
 h5{
   font-size: 16px;
 }
+p{
+  font-size: 14px;
+}
 .gap-4{
   gap:10px!important
 }
-    .shaded-line{
-      font-size: 16px;
-    }
     .modal-dialog {
         max-width: 100%;
     }
