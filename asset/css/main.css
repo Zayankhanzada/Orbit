@@ -343,6 +343,9 @@ h5{
 .fs-22{
   font-size: 20px;
 }
+.fs-20{
+  font-size: 18px;
+}
 }
   @media screen and (max-width: 575.97px) {
   
@@ -362,11 +365,15 @@ margin-bottom: 57px;
     .fs-22{
       font-size: 18px;
     }  
+    
+.fs-20{
+  font-size: 16px;
+}
     .product-cards-layout{
       padding:30px;
     }
     h1{
-      font-size: 40px;
+      font-size: 32px;
     }
     h2{
       font-size:32px ;
