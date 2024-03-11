@@ -35,10 +35,8 @@
 }
 .bg-seceondary{
   background-color: #29D9D0;
-  color: black;
 }
 .bg-seceondary:hover{
-  color:black;
   background-color: #29d9d0;
 }
 .bg-blue{
@@ -49,7 +47,6 @@
 }
 .bg-success{
   background-color: #00d98d!important;
-  color: black;
 }
 .bg-dark{
   background-color: #001926!important;
@@ -276,7 +273,7 @@ background-size: cover;
   }
   @media screen and (max-width: 991.97px) {
   h1 {
-        font-size: 52px;
+        font-size: 50px;
     }
     h2{
       font-size: 50px;
@@ -294,7 +291,7 @@ background-size: cover;
 }
 @media screen and (max-width:767.98px) {
  h1{
-  font-size: 51px;
+  font-size: 40px;
  } 
  h2{
 font-size: 45px;
