@@ -21,7 +21,11 @@
   p{   
     font-family:"Inter",sans-serif;
     margin:0;
-    }
+    }  
+h1,h2,h3,h4,h5,h6{
+  font-family: "Luxora Grostek",sans-serif;
+  margin:0;
+}
     .btn{
       padding:12px 24px;
       font-size:16px;
@@ -30,20 +34,34 @@
       border-radius:16px;
      }
      /* background and colors */
-.bg-primary{
+.bg-primary {
+background-color: #867EE8;
+}
+.btn-primary{
   background-color: #867EE8!important;
+ color:white;
 }
 .bg-seceondary{
   background-color: #29D9D0;
 }
-.bg-seceondary:hover{
-  background-color: #29d9d0;
+.btn-seceondary{
+  background-color: #29D9D0;
+color: #06111C;
+}
+.btn-seceondary:hover{
+background-color: #29D9D0;
+color: #06111C;
 }
 .bg-blue{
-  background-color: #296fd9;
+  background-color:#296fd9;
 }
-.bg-blue:hover{
+.btn-blue{
+  background-color: #296fd9;
+  color: white;
+}
+.btn-blue:hover{
   background: #296fd9;
+color: #F4F4F4;
 }
 .bg-success{
   background-color: #00d98d!important;
@@ -56,9 +74,6 @@
 }
 .text-seceondary{
   color:#BAB8CC;
-}
-h1,h2,h3,h4,h5,h6{
-  font-family: "Luxora Grostek",sans-serif;
 }
     .mt-6{
       margin-top:80px;
@@ -73,17 +88,18 @@ h1,h2,h3,h4,h5,h6{
       font-size: 22px;
     }
   h1{
-      font-size:52px;
-      font-weight: bold;
+      font-size:56px;
+      margin: 0;
+      font-weight: 600;
   } 
   h2{
     font-size: 56px;
-    font-weight: bold;
+    font-weight:700;
   
   }
   h3{
     font-size:32px;
-    margin-top: 10px;
+  
   }
   h4{
     font-size: 20px;
@@ -95,23 +111,23 @@ h1,h2,h3,h4,h5,h6{
   }
   .navbar {
     background-color: transparent;
-    width: 100vw;
+    width: 100%;
+    padding-top:24px;
+   padding-bottom: 24px;
     transition: background-color 0.2s ease;
   }
   .navbar.scrolled {
     background-color: #06111C;
+    padding-top:16px ;
+    padding-bottom:16px ;
   }
-  .nav-link{  
-  color:white;
+  .nav-link{
+    padding:12px 14px!important;
+  }
   
-  }
-  .nav-link:hover{
-    color: white;
-  }
   /* home starts */  
   .hero-section{ 
-    background: linear-gradient(180deg, rgba(6, 17, 28, 0) 34.38%, #06111c 100%), url(/asset/images/bgimage.png) center center;
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(6, 17, 28, 0) 34.38%, #06111c 100%), url(/asset/images/bgimage.png) center center /cover;
   }
 
   .featured{
@@ -126,7 +142,6 @@ h1,h2,h3,h4,h5,h6{
   /* Vision starts */
   .shaded-line{
       padding: 8px;
-      font-size: 22px;
       border-left:4px solid #867EE8;
   } 
   .image-wrapper{
