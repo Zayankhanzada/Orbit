@@ -74,7 +74,7 @@ color: #F4F4F4;
   color:#06111C ;
 }
 .coming-soon{
-  background-color: #001926;
+  background-color: #06111C;
   color: #F4F4F4;
 }
 .text-primary{
@@ -226,14 +226,14 @@ color: #F4F4F4;
     background-color:transparent;
     border-radius:100%;
   }
-  .roadmap-section .swiper-button:hover{
+.swiper-button:hover{
     background-color: #F4F4F4;
-    color: #06111C;
+    color: #06111C; 
   }
-  .roadmap-section .swiper-button-disabled{
- border-color:#808080!important;
- background-color:transparent!important;
- color:#808080!important; 
+.swiper-button.swiper-button-disabled{
+ border-color:#808080;
+ background-color:transparent;
+ color:#808080; 
     }
   .badge{
     padding:8px;
