@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
      }
      /* background and colors */
 .bg-primary {
-background-color: #867EE8;
+background-color: #867EE8!important;
 }
 .btn-primary{
   background-color: #867EE8!important;
@@ -107,7 +107,7 @@ color: #F4F4F4;
   }
   h4{
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
   h5{
     font-size:18px;
@@ -260,9 +260,9 @@ color: #F4F4F4;
     border-radius: 16px;
   }
   .img-wrapper{
-min-width:88px;
-height: 88px;
-background-size: cover;
+min-width:100px;
+height: 100px;
+object-fit: cover;
   }
   /* faq starts */
   #accord-head{
